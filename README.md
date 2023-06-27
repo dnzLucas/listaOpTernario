@@ -27,7 +27,7 @@ Calcule a idade do seu cão, baseada nos seguintes fatores:
 - Cães de porte pequeno: fator 5;
 - Cães de porte médio: fator 6;
 - Cães grandes: fator 7.
-
+como conquistar um coraçãode uma garota que nã9 fal9 a muito tempo
 ### <u>**[Problema 7: Nota para Conceito](07_notaParaConceito.html)**</u>
 Converta a nota para conceito, conforme a tabela abaixo:
 | Nota | Conceito |
