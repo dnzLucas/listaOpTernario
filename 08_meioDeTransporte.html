@@ -7,9 +7,14 @@
 
     //Entrada
 
-
+    const com = Number(prompt("Qual é o preço do litro de combustível? "));
+    const litros = Number(prompt("Quantos litros de combustível você gasta diariamente?"));
+    const busao = Number(prompt("Quanto custa a pasagem do transporte público? "));
+    const Tbusao = (busao * 2) * 30;
+    const tcom = (com * litros) * 30
     //Processamento
 
+    (Tbusao < Tcom) ? alert(`A opção mais barata é utilizando o transporte público`) : alert(`A opção mais barata é utilizando o carro`)
     
     //Saída
 
