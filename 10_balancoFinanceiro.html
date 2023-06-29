@@ -11,10 +11,18 @@
 
     //Entrada
 
+    const salario = Number(prompt("Quanto você recebe de salário? "));
+    const agua = Number(prompt("Quanto custa as suas despesas com água? "));
+    const luz = Number(prompt("Quanto custa as suas despesas com energia? "));
+    const tel = Number(prompt("Quanto custa as suas despesas com telefone? "));
+    const mercado = Number(prompt("Quanto custa as suas despesas com o supermercado? "));
 
     //Processamento
 
+    const total = agua + luz + tel + mercado;
     
+    (salario >= total) ? alert(`Contas pagas com sucesso! Lhe restam R$${salario - total}.`) : alert(`Ops! Você não tem dinheiro suficiente! Lhe faltam R$${total - salario}.`);
+
     //Saída
     
 </script>

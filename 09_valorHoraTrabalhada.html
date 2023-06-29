@@ -9,10 +9,15 @@
 
     //Entrada
 
+    const hsemana = Number(prompt("Quantas horas você trabalha semanalmente? "));
+    const VpHr = Number(prompt("Quanto você recebe por hora? "));
 
     //Processamento
 
-    
+    let VpSemana = (hsemana * VpHr.toFixed(2));
+
+    (hsemana <= 45) ? alert(`Seu salário semanal é de R$${VpSemana}`) : (hsemana <= 60) ? alert(`Seu salário semanal é de R$${VpSemana + (VpSemana * 0.2)}`) : (hsemana > 60) ? alert(`Seu salário semanal é de R$${VpSemana + (VpSemana * 0.3)}. Você ganha R$${VpHr + (VpHr * 0.3)} por hora`) : alert("Valor inválido!")
+        
     //Saída
 
 </script>
