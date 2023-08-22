@@ -9,15 +9,14 @@
 
     //Entrada
 
-    let idd = Number(prompt("Qual é a idade do seu cachorro:(P(pequeno) M(médio) G(grande))"));
-    let porte = prompt("Qual é o porte do seu cachorro? ");
+    let idd = Number(prompt("Qual é a idade do seu cachorro"));
+    let porte = prompt("Qual é o porte do seu cachorro? (P(pequeno) M(médio) G(grande)) ");
     //Processamento
 
-    (porte == "pequeno") ? alert (idd * 5) : (porte == "medio") ? alert (idd * 6) : (porte == "grande") ? alert (idd * 7) : "INVALIDO";
+    (porte == "P")? alert (idd * 5) : (porte == "M") ? alert (idd * 6) : (porte == "G") ? alert (idd * 7) : alert("INVALIDO");
 
     
     //Saída
 
-    alert(idd)
 
 </script>
